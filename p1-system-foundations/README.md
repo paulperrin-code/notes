@@ -50,6 +50,11 @@ Now with Week 1 of CS50x, it goes into a specific programming language: C.
 
 * **Magic numbers** are random hard-coded values with no explanation. Instead of putting `23` or `52` everywhere and hoping anyone remembers why, we define clear constants with `#define`. That makes the code readable, consistent, and prevents accidental changes.
 
+* Problem Set
+  * Submit Hello, It's Me - Easy
+  * Submit Mario - Normal
+  * Submit Cash - Easy
+
 ---
 
 ### Week 2 – Arrays
@@ -65,6 +70,11 @@ In Week 2 of CS50x, I dove into how programs really work under the hood: functio
 * **Arrays**: Instead of making `score1`, `score2`, `score3`, you use an array (e.g. `scores[3]`) to store values of the same type in a contiguous block. Zero-based indexing (`scores[0]` is the first value) matters.
 
 * **Command-line arguments**: When running a program, you can give extra inputs (arguments) directly in the terminal, like `./program arg1 arg2`. They are handled before the program even starts running.
+
+* Problem Set 2
+  * Submit Scrabble - Normal
+  * Submit Readability - Excited
+  * Submit Caesar - Dislike and difficult
 
 ---
 

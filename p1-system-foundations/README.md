@@ -78,4 +78,27 @@ In Week 2 of CS50x, I dove into how programs really work under the hood: functio
 
 ---
 
+### Week 3 - Algorithms
+
+Week 3 of CS50x felt like the point where programming turned into computer science for real. Before this, code just seemed like instructions; now it's about efficiency and design. This week's focus was alogirthms, searching, sorting, and recursion - the hidden machinery that makes programs fast or painfully slow.
+
+* **Searching** is about finding data in a collection
+
+  * **Linear Search**: Check every element one by one until you find the target or run out of data. It’s simple but slow, taking up to n steps for n items.
+  * **Binary Search**: Works only if the data is sorted. Start in the middle; if the target is smaller, look left; if larger, look right; repeat. Each step cuts the problem in half. Logarithmic time *(O(log n))* instead of linear *(O(n))*. It’s the first example of how thinking smarter beats brute force.
+
+* **Sorting** is the setup for searching efficiently. The lectures covered several classic methods:
+
+  * **Bubble Sort**: Compare pairs of elements and swap if out of order, again and again, until sorted. Works but horribly inefficient for large data *(O(n²))*.
+  * **Selection Sort**: Find the smallest element and put it at the start, then repeat for the rest. Still *O(n²)*, but with fewer swaps.
+  * **Merge Sort**: Divide the list in half repeatedly, sort each half, then merge them in order. Faster *(O(n log n))* and an elegant example of recursion in action.
+
+* **Recursion** means a function calling itself to solve smaller versions of a problem. It sounds like black magic until you realize there’s always a base case (the simplest version) that stops the loop.
+Example: computing factorials, navigating directories, or sorting with merge sort.
+Recursion ties into **call stacks** — each function call gets stored in memory until it returns. Too much recursion and you overflow the stack.
+
+* **Algorithmic Thinking** is that how you think about solving a problem matters more than just getting it to work. Two programs can give the same result, but one might finish instantly while the other takes hours. That’s where Big O notation comes in: it measures how performance scales with input size. Constant *(O(1))*, logarithmic *(O(log n))*, linear *(O(n))*, and quadratic *(O(n²))* time are all tradeoffs between simplicity and efficiency.
+
+---
+
 More to come as I continue CS50x and MIT Missing Semester.

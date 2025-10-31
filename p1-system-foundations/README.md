@@ -99,6 +99,11 @@ Recursion ties into **call stacks** — each function call gets stored in memory
 
 * **Algorithmic Thinking** is that how you think about solving a problem matters more than just getting it to work. Two programs can give the same result, but one might finish instantly while the other takes hours. That’s where Big O notation comes in: it measures how performance scales with input size. Constant *(O(1))*, logarithmic *(O(log n))*, linear *(O(n))*, and quadratic *(O(n²))* time are all tradeoffs between simplicity and efficiency.
 
+* Problem Set
+  * Submit Sort - Easy
+  * Submit Plurality - Normal
+  * Submit Runoff - Troubling
+
 ---
 
 More to come as I continue CS50x and MIT Missing Semester.
